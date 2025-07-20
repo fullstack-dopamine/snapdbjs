@@ -1,0 +1,14 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "DBJS",
+    "snapdbjs",
+    "sstable",
+    "sstables",
+    "memtable",
+    "snapdb",
+    "compaction",
+    "deserializer"
+  ]
+}

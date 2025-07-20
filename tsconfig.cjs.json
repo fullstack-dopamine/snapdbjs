@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist/cjs",
+    "declaration": false,
+    "declarationMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "benchmarks",
+    "src/worker/**",
+    "src/plugins/PersistencePlugin.ts",
+    "src/plugins/PubSubPlugin.ts",
+    "src/client/SnapDB.ts"
+  ]
+}

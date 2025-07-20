@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/types",
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "benchmarks",
+    "src/worker/**",
+    "src/plugins/PersistencePlugin.ts",
+    "src/plugins/PubSubPlugin.ts",
+    "src/client/SnapDB.ts"
+  ]
+}

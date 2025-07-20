@@ -1,0 +1,35 @@
+# Development files
+src/
+tests/
+benchmarks/
+examples/
+docs/
+
+# Config files
+.eslintrc.json
+.prettierrc.json
+tsconfig.json
+tsconfig.*.json
+vitest.config.ts
+
+# Build artifacts
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Development directories
+.vscode/
+.idea/
+coverage/
+
+# Documentation source
+*.md
+!README.md
+!LICENSE
+
+# Git
+.git/
+.gitignore
+
+# Other
+node_modules/
