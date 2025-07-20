@@ -4,17 +4,17 @@ A high-performance, Redis-style, in-memory, TypeScript-first key-value store wit
 
 ## Features
 
-- 🚀 **High Performance**: Built with LSM-tree architecture for optimal write throughput
-- 🔄 **Redis-Compatible API**: Familiar commands like SET, GET, DEL, EXPIRE, TTL, INCR, DECR
-- 🧵 **Worker Thread Architecture**: Non-blocking operations with dedicated storage worker
-- 📝 **TypeScript First**: Full type safety with generic key-value support
-- 🔌 **Extensible**: Middleware pipeline and plugin system
-- 📊 **Built-in Metrics**: Performance monitoring and Prometheus export
-- 💾 **Optional Persistence**: Save/load data to disk with the persistence plugin
-- 📸 **Snapshots**: Point-in-time backups with the snapshot plugin
-- 📢 **Pub/Sub**: Redis-style publish/subscribe with the pubsub plugin
-- 🌸 **Bloom Filters**: Probabilistic data structure for efficient key existence checks
-- 🗜️ **Compaction**: Automatic background compaction for optimal storage
+- **High Performance**: Built with LSM-tree architecture for optimal write throughput
+- **Redis-Compatible API**: Familiar commands like SET, GET, DEL, EXPIRE, TTL, INCR, DECR
+- **Worker Thread Architecture**: Non-blocking operations with dedicated storage worker
+- **TypeScript First**: Full type safety with generic key-value support
+- **Extensible**: Middleware pipeline and plugin system
+- **Built-in Metrics**: Performance monitoring and Prometheus export
+- **Optional Persistence**: Save/load data to disk with the persistence plugin
+- **Snapshots**: Point-in-time backups with the snapshot plugin
+- **Pub/Sub**: Redis-style publish/subscribe with the pubsub plugin
+- **Bloom Filters**: Probabilistic data structure for efficient key existence checks
+- **Compaction**: Automatic background compaction for optimal storage
 
 ## Installation
 
@@ -235,7 +235,7 @@ MIT
 
 ## Author
 
-Abhilash Madi (https://github.com/abhilashmadi)
+Abhilash (https://github.com/abhilashmadi)
 
 ## Contributing
 
